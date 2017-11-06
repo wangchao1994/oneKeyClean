@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/single1" android:title="single1" android:icon="@mipmap/ic_launcher"/>
+        <item android:id="@+id/single2" android:title="single2" android:icon="@mipmap/ic_launcher"/>
+        <item android:id="@+id/single3" android:title="single3" android:icon="@mipmap/ic_launcher"/>
+    </group>
+
+
+    <item android:title="子菜单">
+        <menu>
+            <item android:id="@+id/item_1" android:title="item1" android:icon="@mipmap/ic_launcher"/>
+            <item android:id="@+id/item_2" android:title="item2" android:icon="@mipmap/ic_launcher"/>
+            <item android:id="@+id/item_3" android:title="item3" android:icon="@mipmap/ic_launcher"/>
+        </menu>
+
+    </item>
+
+
+
+</menu>
